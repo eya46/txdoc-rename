@@ -44,7 +44,7 @@ if __name__ == '__main__':
     ls: int = int(input("请输入数据开始的行号："))
     le: int = int(input("请输入数据结束的行号："))
     r: str = input("请输入重命名规则(例如:{A}_{B}_{C}.jpg)：")
-    fr: str = input("请输入附件名所在地列号：")
+    fr: str = input("请输入附件名所在的列号：")
     ll = opt(
         n, sn, rs,
         ls, le, r, fr
